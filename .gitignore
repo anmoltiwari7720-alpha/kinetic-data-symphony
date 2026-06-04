@@ -1,0 +1,41 @@
+# ENVIRONMENT & SECRETS (CRITICAL!)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p8
+
+# NODE.JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tsbuildinfo
+
+# GENERATED
+dist/
+build/
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# TESTING
+.jest_cache/
+
+# LOGS
+logs/
+*.log
+
+# TEMP
+*.tmp
+*.bak
